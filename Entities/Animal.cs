@@ -11,5 +11,6 @@ namespace FamilyWebAPImodels.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string Age { get; set; }
+        public List<Person> Persons { get; set; }
     }
 }
